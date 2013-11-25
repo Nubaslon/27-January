@@ -7,6 +7,8 @@
 //
 
 #import "MainViewController.h"
+#import "ECSlidingViewController.h"
+#import "MenuViewController.h"
 
 @interface MainViewController ()
 
@@ -27,6 +29,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    if (![self.slidingViewController.underLeftViewController isKindOfClass:[MenuViewController class]]) {
+        self.slidingViewController.underLeftViewController  = [self.storyboard instantiateViewControllerWithIdentifier:@"Menu"];
+    }
+    
+    
+    [self.view addGestureRecognizer:self.slidingViewController.panGesture];
 }
 
 - (void)didReceiveMemoryWarning

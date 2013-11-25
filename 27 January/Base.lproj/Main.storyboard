@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3676"/>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--Init View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Init" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vXZ-lx-hvc" customClass="InitViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -16,6 +17,83 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="Prx-kL-7D5">
+            <objects>
+                <viewController storyboardIdentifier="Menu" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hWS-qV-jA7" customClass="MenuViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3WP-IM-8Gr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="qsO-F4-7P3">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="hWS-qV-jA7" id="4hA-SX-i4I"/>
+                                    <outlet property="delegate" destination="hWS-qV-jA7" id="8JR-9k-2wp"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="qsO-F4-7P3" id="2Bp-HC-rCs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nMJ-Q3-Nia" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="557" y="110"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="kDH-Kb-cTc">
+            <objects>
+                <viewController storyboardIdentifier="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LFb-pe-seU" customClass="MainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OU1-0x-aKJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="d0X-gS-cNQ">
+                                <rect key="frame" x="0.0" y="20" width="320" height="212"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tWb-6h-7Xu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="923" y="110"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="8fb-Je-Eqr">
+            <objects>
+                <viewController storyboardIdentifier="About" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AQv-O2-vxL" customClass="AboutViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ppp-lN-NSu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" id="fno-l8-vMC">
+                                <rect key="frame" x="20" y="20" width="280" height="528"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Наш музыкальный союз образовался в 2006 году, когда с другом Артемом купили электрогитары и начали записывать музыку похожую на тогдашние модные альтер- метал- Российские команды. Получалось конечно не очень, но тем не менее был приобретен опыт репитиций и записи инструментов и вокала. Мы записали альбом, где большинство песен было с гроулингом. Он назывался "Шаг в пустоту", а группа имела имя — ВЭ (не спрашивайте почемуКруто). Из тех 8 песен вылезла одна легкая, акустическая, с уклоном в сторону репа — Рок внутри тебя. Эта песня и положила начало нашему звуку и стилю музыки. Название ВЭ — перерасло в «Волна Эмоций», а позже переведено как «Wave of Emotions».
+Вскоре я написал еще 11 песен и мы записали альбом «То, что ты сам себе придумал», который был готов как раз на День Рождения Артема — 7 января 2007 года, а диски с записью мы раздали друзьям на праздновании Д.Р.Ни о каком «сведении» и «мастеринге» я тогда не знал, ударные и бас были сделаны в Fl-studio, а вокал и акустическая гитара писалась на микрофоны Genius за 70 рублей.Речитатив в куплете и лирический вокал в припеве — это была фишка нашего альбома.Результатом мы были довольны и многим друзьям понравились наши песни. 
+К следующеиу альбомы мы подготовились уже основательно. Были куплены хорошие микрофоны, предусилители, гитары. И весной 2011 года начали работу над материалом. Туда вошли песни которые я написал примерно в 2009-2011 годы. Здесь мы больше ушли в лирику и русский рок, добавив немного электричества песням. Гитары, бас, были живыми, добавилась классическая гитара и даже баян, но для записи барабанов пользовались VST-плагинами.«27-й Январь» был выпущен в феврале 2012 года. Была сделана обложка альбома и тираж примерно в 20-25 дисков.Старое название группы нам не нравилось и мы ни придумали ничего ориганального и кроме названия  альбома на диске ничего не писали. На презентации (где мы не пели и не играли Круто), уже по традиции, диски раздали друзьям. 
+Год 2013. Накопилось уже достаточное кол-во новых песен, возникла мысль перезаписать некоторые старые. Новые инструменты — кахон (фанерный ящик), который заменил барабаны и перкуссия (тамбурин и шейкер) добавили музыке живости, она стана цельней и прочней. Концепция альбома: половина песен в русско-роковом ключе, половина с речитативом как в 1-ом альбоме.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Efr-E6-Smx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1296" y="110"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

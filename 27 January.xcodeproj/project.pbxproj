@@ -24,6 +24,8 @@
 		578DAA8E1843CE01004C2229 /* InitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA8D1843CE01004C2229 /* InitViewController.m */; };
 		578DAA911843CE10004C2229 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA901843CE10004C2229 /* MenuViewController.m */; };
 		578DAA941843CE1B004C2229 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA931843CE1B004C2229 /* MainViewController.m */; };
+		578DAA9A1843D56D004C2229 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA991843D56D004C2229 /* AboutViewController.m */; };
+		578DAA9C1843DBB1004C2229 /* Обложка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 578DAA9B1843DBB1004C2229 /* Обложка.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,9 @@
 		578DAA901843CE10004C2229 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		578DAA921843CE1B004C2229 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		578DAA931843CE1B004C2229 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		578DAA981843D56D004C2229 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		578DAA991843D56D004C2229 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		578DAA9B1843DBB1004C2229 /* Обложка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Обложка.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +126,7 @@
 		578DAA591843CD89004C2229 /* 27 January */ = {
 			isa = PBXGroup;
 			children = (
+				578DAA9B1843DBB1004C2229 /* Обложка.jpg */,
 				578DAA881843CDE9004C2229 /* ECSlidingViewController */,
 				578DAA621843CD89004C2229 /* AppDelegate.h */,
 				578DAA631843CD89004C2229 /* AppDelegate.m */,
@@ -133,6 +139,8 @@
 				578DAA901843CE10004C2229 /* MenuViewController.m */,
 				578DAA921843CE1B004C2229 /* MainViewController.h */,
 				578DAA931843CE1B004C2229 /* MainViewController.m */,
+				578DAA981843D56D004C2229 /* AboutViewController.h */,
+				578DAA991843D56D004C2229 /* AboutViewController.m */,
 			);
 			path = "27 January";
 			sourceTree = "<group>";
@@ -253,6 +261,7 @@
 			files = (
 				578DAA6C1843CD89004C2229 /* Images.xcassets in Resources */,
 				578DAA5E1843CD89004C2229 /* InfoPlist.strings in Resources */,
+				578DAA9C1843DBB1004C2229 /* Обложка.jpg in Resources */,
 				578DAA671843CD89004C2229 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +284,7 @@
 				578DAA641843CD89004C2229 /* AppDelegate.m in Sources */,
 				578DAA941843CE1B004C2229 /* MainViewController.m in Sources */,
 				578DAA601843CD89004C2229 /* main.m in Sources */,
+				578DAA9A1843D56D004C2229 /* AboutViewController.m in Sources */,
 				578DAA8E1843CE01004C2229 /* InitViewController.m in Sources */,
 				578DAA8B1843CDE9004C2229 /* ECSlidingViewController.m in Sources */,
 				578DAA911843CE10004C2229 /* MenuViewController.m in Sources */,
