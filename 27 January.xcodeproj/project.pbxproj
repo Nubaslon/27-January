@@ -14,13 +14,16 @@
 		578DAA601843CD89004C2229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA5F1843CD89004C2229 /* main.m */; };
 		578DAA641843CD89004C2229 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA631843CD89004C2229 /* AppDelegate.m */; };
 		578DAA671843CD89004C2229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578DAA651843CD89004C2229 /* Main.storyboard */; };
-		578DAA6A1843CD89004C2229 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA691843CD89004C2229 /* ViewController.m */; };
 		578DAA6C1843CD89004C2229 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578DAA6B1843CD89004C2229 /* Images.xcassets */; };
 		578DAA731843CD89004C2229 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578DAA721843CD89004C2229 /* XCTest.framework */; };
 		578DAA741843CD89004C2229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578DAA531843CD89004C2229 /* Foundation.framework */; };
 		578DAA751843CD89004C2229 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578DAA571843CD89004C2229 /* UIKit.framework */; };
 		578DAA7D1843CD89004C2229 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 578DAA7B1843CD89004C2229 /* InfoPlist.strings */; };
 		578DAA7F1843CD89004C2229 /* _7_JanuaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA7E1843CD89004C2229 /* _7_JanuaryTests.m */; };
+		578DAA8B1843CDE9004C2229 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA8A1843CDE9004C2229 /* ECSlidingViewController.m */; };
+		578DAA8E1843CE01004C2229 /* InitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA8D1843CE01004C2229 /* InitViewController.m */; };
+		578DAA911843CE10004C2229 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA901843CE10004C2229 /* MenuViewController.m */; };
+		578DAA941843CE1B004C2229 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA931843CE1B004C2229 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,20 @@
 		578DAA621843CD89004C2229 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		578DAA631843CD89004C2229 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		578DAA661843CD89004C2229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		578DAA681843CD89004C2229 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		578DAA691843CD89004C2229 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		578DAA6B1843CD89004C2229 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		578DAA711843CD89004C2229 /* 27 JanuaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "27 JanuaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		578DAA721843CD89004C2229 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		578DAA7A1843CD89004C2229 /* 27 JanuaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "27 JanuaryTests-Info.plist"; sourceTree = "<group>"; };
 		578DAA7C1843CD89004C2229 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		578DAA7E1843CD89004C2229 /* _7_JanuaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _7_JanuaryTests.m; sourceTree = "<group>"; };
+		578DAA891843CDE9004C2229 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		578DAA8A1843CDE9004C2229 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		578DAA8C1843CE01004C2229 /* InitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitViewController.h; sourceTree = "<group>"; };
+		578DAA8D1843CE01004C2229 /* InitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitViewController.m; sourceTree = "<group>"; };
+		578DAA8F1843CE10004C2229 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		578DAA901843CE10004C2229 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		578DAA921843CE1B004C2229 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		578DAA931843CE1B004C2229 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +121,18 @@
 		578DAA591843CD89004C2229 /* 27 January */ = {
 			isa = PBXGroup;
 			children = (
+				578DAA881843CDE9004C2229 /* ECSlidingViewController */,
 				578DAA621843CD89004C2229 /* AppDelegate.h */,
 				578DAA631843CD89004C2229 /* AppDelegate.m */,
 				578DAA651843CD89004C2229 /* Main.storyboard */,
-				578DAA681843CD89004C2229 /* ViewController.h */,
-				578DAA691843CD89004C2229 /* ViewController.m */,
 				578DAA6B1843CD89004C2229 /* Images.xcassets */,
 				578DAA5A1843CD89004C2229 /* Supporting Files */,
+				578DAA8C1843CE01004C2229 /* InitViewController.h */,
+				578DAA8D1843CE01004C2229 /* InitViewController.m */,
+				578DAA8F1843CE10004C2229 /* MenuViewController.h */,
+				578DAA901843CE10004C2229 /* MenuViewController.m */,
+				578DAA921843CE1B004C2229 /* MainViewController.h */,
+				578DAA931843CE1B004C2229 /* MainViewController.m */,
 			);
 			path = "27 January";
 			sourceTree = "<group>";
@@ -150,6 +164,15 @@
 				578DAA7B1843CD89004C2229 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		578DAA881843CDE9004C2229 /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				578DAA891843CDE9004C2229 /* ECSlidingViewController.h */,
+				578DAA8A1843CDE9004C2229 /* ECSlidingViewController.m */,
+			);
+			path = ECSlidingViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				578DAA6A1843CD89004C2229 /* ViewController.m in Sources */,
 				578DAA641843CD89004C2229 /* AppDelegate.m in Sources */,
+				578DAA941843CE1B004C2229 /* MainViewController.m in Sources */,
 				578DAA601843CD89004C2229 /* main.m in Sources */,
+				578DAA8E1843CE01004C2229 /* InitViewController.m in Sources */,
+				578DAA8B1843CDE9004C2229 /* ECSlidingViewController.m in Sources */,
+				578DAA911843CE10004C2229 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -367,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

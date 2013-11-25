@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  27 January
 //
 //  Created by Nubaslon on 25.11.13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainViewController : UIViewController
 
 @end
