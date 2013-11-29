@@ -26,6 +26,7 @@
 		578DAA941843CE1B004C2229 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA931843CE1B004C2229 /* MainViewController.m */; };
 		578DAA9A1843D56D004C2229 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578DAA991843D56D004C2229 /* AboutViewController.m */; };
 		578DAA9C1843DBB1004C2229 /* Обложка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 578DAA9B1843DBB1004C2229 /* Обложка.jpg */; };
+		C101226718447C4E00E55B2B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C101226618447C4D00E55B2B /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		578DAA981843D56D004C2229 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		578DAA991843D56D004C2229 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		578DAA9B1843DBB1004C2229 /* Обложка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Обложка.jpg"; sourceTree = "<group>"; };
+		C101226618447C4D00E55B2B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C101226718447C4E00E55B2B /* AVFoundation.framework in Frameworks */,
 				578DAA561843CD89004C2229 /* CoreGraphics.framework in Frameworks */,
 				578DAA581843CD89004C2229 /* UIKit.framework in Frameworks */,
 				578DAA541843CD89004C2229 /* Foundation.framework in Frameworks */,
@@ -115,6 +118,7 @@
 		578DAA521843CD89004C2229 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C101226618447C4D00E55B2B /* AVFoundation.framework */,
 				578DAA531843CD89004C2229 /* Foundation.framework */,
 				578DAA551843CD89004C2229 /* CoreGraphics.framework */,
 				578DAA571843CD89004C2229 /* UIKit.framework */,
@@ -496,6 +500,7 @@
 				578DAA841843CD89004C2229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		578DAA851843CD89004C2229 /* Build configuration list for PBXNativeTarget "27 JanuaryTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				578DAA871843CD89004C2229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

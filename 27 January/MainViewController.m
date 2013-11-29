@@ -15,6 +15,9 @@
 @end
 
 @implementation MainViewController
+{
+    AVAudioPlayer *player;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
